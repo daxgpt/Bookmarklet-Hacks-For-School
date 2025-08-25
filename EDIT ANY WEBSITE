@@ -1,0 +1,5 @@
+javascript:(function(){
+  document.body.contentEditable = document.body.contentEditable !== "true";
+  document.designMode = document.designMode === "on" ? "off" : "on";
+  alert("Edit mode toggled! Click on text to change it.");
+})();
